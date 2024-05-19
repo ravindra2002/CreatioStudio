@@ -1,0 +1,18 @@
+﻿{
+  "Descriptor": {
+    "UId": "cef81e8e-24ae-413a-830e-d12cb81dea82",
+    "Name": "UsrRealityFreedomUI",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1632313759000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrRealityFreedomUI.csproj",
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      }
+    ]
+  }
+}

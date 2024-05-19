@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "4c479754-7f3d-40b9-8742-e5244c70e216",
+    "Name": "UsrRealityFreedomUI_FormPage",
+    "ModifiedOnUtc": "\/Date(1716127603000)\/",
+    "Parent": {
+      "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
+      "Name": "PageWithTabsFreedomTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Reality FreedomUI form page"
+  }
+}

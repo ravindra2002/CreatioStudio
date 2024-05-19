@@ -301,8 +301,8 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="Package References">
-		<Reference Include="Terrasoft.Configuration">
-			<HintPath>$(RelativePkgFolderPath)/../bin/Terrasoft.Configuration.dll</HintPath>
+		<Reference Include="CrtCore">
+			<HintPath>$(RelativePkgFolderPath)/CrtCore/$(StandalonePackageAssemblyPath)/CrtCore.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -406,11 +406,6 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="CrtCore">
-			<HintPath>$(RelativePkgFolderPath)/CrtCore/$(StandalonePackageAssemblyPath)/CrtCore.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtProductivityApp">
 			<HintPath>$(RelativePkgFolderPath)/CrtProductivityApp/$(StandalonePackageAssemblyPath)/CrtProductivityApp.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -434,9 +429,9 @@
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
-		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/Account/Account.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/Account/Account.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealityTypeClassic/UsrRealityTypeClassic.cs" Condition="Exists('$(RelativePkgFolderPath)/DevPack/Schemas/UsrRealityTypeClassic/UsrRealityTypeClassic.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrRealityFreedomUI/Schemas/UsrRealitytypeFreedomUI/UsrRealitytypeFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealityFreedomUI/Schemas/UsrRealitytypeFreedomUI/UsrRealitytypeFreedomUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrRealityFreedomUI/Schemas/UsrRealityFreedomUI/UsrRealityFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealityFreedomUI/Schemas/UsrRealityFreedomUI/UsrRealityFreedomUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrRealityFreedomUI/Schemas/UsrRealityOfferTypeFreedomUI/UsrRealityOfferTypeFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrRealityFreedomUI/Schemas/UsrRealityOfferTypeFreedomUI/UsrRealityOfferTypeFreedomUI.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">

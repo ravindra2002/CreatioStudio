@@ -1,3 +1,7 @@
 <Project>
-	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''"></ItemGroup>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/DevPack/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(PkgPath)/DevPack/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
+		<Compile Include="$(PkgPath)/DevPack/Schemas/Account/Account.cs" Condition="Exists('$(PkgPath)/DevPack/Schemas/Account/Account.cs')" />
+		<Compile Include="$(PkgPath)/DevPack/Schemas/UsrRealityTypeClassic/UsrRealityTypeClassic.cs" Condition="Exists('$(PkgPath)/DevPack/Schemas/UsrRealityTypeClassic/UsrRealityTypeClassic.cs')" />
+	</ItemGroup>
 </Project>
