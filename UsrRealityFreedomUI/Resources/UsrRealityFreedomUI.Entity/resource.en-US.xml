@@ -5,6 +5,7 @@
 			<Item Name="Caption" Value="Reality FreedomUI" />
 			<Item Name="Columns.UsrArea.Caption" Value="Area, sq ft" />
 			<Item Name="Columns.UsrComment.Caption" Value="Comment" />
+			<Item Name="Columns.UsrCommission.Caption" Value="Commission" />
 			<Item Name="Columns.UsrCurrency.Caption" Value="Currency" />
 			<Item Name="Columns.UsrManager.Caption" Value="Manager" />
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
